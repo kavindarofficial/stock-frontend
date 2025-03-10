@@ -81,22 +81,6 @@ const CisbosiumPage: React.FC = () => {
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe-JlAhu5uAHSqg4kORVPhGeOe8M2_8X6_Fd40YftGZfbKIfQ/viewform?usp=header"
     },
     {
-      title: "Stock Market Challenge",
-      description: "Test your financial acumen in a simulated stock market environment.",
-      image: "/vwsc.jpg",
-      coordinators: "Kavindar, Venkat Sai and Hari",
-      icon: "Coins",
-      details: "Experience the thrill of stock trading in a risk-free environment. Make investment decisions, analyze market trends, and compete to build the most profitable portfolio.",
-      rules: [
-        "Solo or duo participation allowed.",
-        "Participants start with a virtual budget.",
-        "Trades and market fluctuations will be simulated in real-time.",
-        "Strategies must be ethical and fair.",
-        "The highest profit at the end of the competition wins."
-      ],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe-JlAhu5uAHSqg4kORVPhGeOe8M2_8X6_Fd40YftGZfbKIfQ/viewform?usp=header"
-    },
-    {
       title: "MystIQ",
       description: "Unravel cryptic clues and uncover a hidden secret!",
       image: "/m.jpg",
