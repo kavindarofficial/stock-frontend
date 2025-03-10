@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --primary-bg: #0a0d1c;
+  --primary-text: rgba(255, 255, 255, 0.87);
+  --scrollbar-track: #1a1b26;
+  --scrollbar-thumb: #2d2e3a;
+  --scrollbar-thumb-hover: #3d3e4a;
+}
+
+body {
+  @apply bg-primaryBg text-primaryText;
+  margin: 0;
+  min-height: 100vh;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
